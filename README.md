@@ -6,7 +6,7 @@ Edge TPU Accelerator/Multi-TPU + Posenet + Python + Sync/Async + LaptopPC/Raspbe
 
 - Ubuntu or RaspberryPi
 - OpenCV4.1.1-openvino
-- USB Camera
+- USB Camera (Playstationeye)
 - Picamera v2
 - Self-powered USB 3.0 Hub
 

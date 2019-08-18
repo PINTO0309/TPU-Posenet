@@ -78,7 +78,6 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", default="models/posenet_mobilenet_v1_075_481_641_quant_decoder_edgetpu.tflite", help="Path of the detection model.")
-    parser.add_argument("--usbcamno", type=int, default=0, help="USB Camera number.")
     parser.add_argument('--videofile', default="", help='Path to input video file. (Default="")')
     parser.add_argument('--vidfps', type=int, default=30, help='FPS of Video. (Default=30)')
     args = parser.parse_args()

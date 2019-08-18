@@ -3,6 +3,10 @@ Edge TPU Accelerator/Multi-TPU + Posenet + Python + Sync/Async + LaptopPC/Raspbe
 Inspired by **[google-coral/project-posenet](https://github.com/google-coral/project-posenet)**.  
 This repository was tuned to speed up Google's sample logic to support multi-TPU. And I replaced the complex Gstreamer implementation with the OpenCV implementation.  
 
+## 0. Table of contents
+**1. [Environment](#environment)**  
+**2. [Inference behavior]()**
+
 ## 1. Environment
 
 - Ubuntu or RaspberryPi

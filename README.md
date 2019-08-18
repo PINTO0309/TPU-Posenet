@@ -5,7 +5,7 @@ This repository was tuned to speed up Google's sample logic to support multi-TPU
 
 ## 0. Table of contents
 **1. [Environment](#environment)**  
-**2. [Inference behavior]()**
+**2. [Inference behavior](#2-inference-behavior)**
 
 ## 1. Environment
 

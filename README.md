@@ -103,6 +103,22 @@ optional arguments:
   --vidfps VIDFPS       FPS of Video. (Default=30)
 ```
 ```bash
+usage: pose_picam_multi_tpu.py [-h] [--model MODEL] [--videofile VIDEOFILE] [--vidfps VIDFPS]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --model MODEL         Path of the detection model.
+  --videofile VIDEOFILE
+                        Path to input video file. (Default="")
+  --vidfps VIDFPS       FPS of Video. (Default=30)
 ```
 ```bash
+usage: pose_picam_single_tpu.py [-h] [--model MODEL] [--videofile VIDEOFILE] [--vidfps VIDFPS]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --model MODEL         Path of the detection model.
+  --videofile VIDEOFILE
+                        Path to input video file. (Default="")
+  --vidfps VIDFPS       FPS of Video. (Default=30)
 ```

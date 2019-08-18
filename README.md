@@ -77,3 +77,32 @@ $ sudo chmod +x download_2019R2.sh
 $ ./download_2019R2.sh
 $ echo "source /opt/intel/openvino/bin/setupvars.sh" >> ~/.bashrc
 ```
+## 4. Usage
+```bash
+usage: pose_camera_multi_tpu.py [-h] [--model MODEL] [--usbcamno USBCAMNO]
+                                [--videofile VIDEOFILE] [--vidfps VIDFPS]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --model MODEL         Path of the detection model.
+  --usbcamno USBCAMNO   USB Camera number.
+  --videofile VIDEOFILE
+                        Path to input video file. (Default="")
+  --vidfps VIDFPS       FPS of Video. (Default=30)
+```
+```bash
+usage: pose_camera_single_tpu.py [-h] [--model MODEL] [--usbcamno USBCAMNO]
+                                 [--videofile VIDEOFILE] [--vidfps VIDFPS]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --model MODEL         Path of the detection model.
+  --usbcamno USBCAMNO   USB Camera number.
+  --videofile VIDEOFILE
+                        Path to input video file. (Default="")
+  --vidfps VIDFPS       FPS of Video. (Default=30)
+```
+```bash
+```
+```bash
+```

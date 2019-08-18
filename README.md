@@ -4,8 +4,9 @@ Inspired by **[google-coral/project-posenet](https://github.com/google-coral/pro
 This repository was tuned to speed up Google's sample logic to support multi-TPU. And I replaced the complex Gstreamer implementation with the OpenCV implementation.  
 
 ## 0. Table of contents
-**1. [Environment](#environment)**  
-**2. [Inference behavior](#2-inference-behavior)**
+**1. [Environment](#1-environment)**  
+**2. [Inference behavior](#2-inference-behavior)**  
+　**2-1. **
 
 ## 1. Environment
 

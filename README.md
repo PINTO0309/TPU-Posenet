@@ -35,7 +35,7 @@ $ sudo apt-get update;sudo apt-get upgrade -y
 
 $ sudo apt-get install -y python3-pip
 $ sudo pip3 install pip --upgrade
-$ sudo pip3 install imutils numpy
+$ sudo pip3 install numpy
 
 $ wget https://dl.google.com/coral/edgetpu_api/edgetpu_api_latest.tar.gz -O edgetpu_api.tar.gz --trust-server-names
 $ tar xzf edgetpu_api.tar.gz
@@ -66,6 +66,7 @@ _edgetpu_cpp_wrapper.cpython-37m-arm-linux-gnueabihf.so
 ### Only Raspbian Buster ############################################################
 
 $ cd ~/TPU-Posenet
+$ sudo pip3 install imutils
 $ sudo raspi-config
 ```
 ![01](media/01.png)  

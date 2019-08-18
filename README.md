@@ -59,7 +59,9 @@ $ ./install.sh
 ```bash
 ### Only Raspbian Buster ############################################################
 $ cd /usr/local/lib/python3.7/dist-packages/edgetpu/swig/
-$ sudo cp _edgetpu_cpp_wrapper.cpython-35m-arm-linux-gnueabihf.so _edgetpu_cpp_wrapper.cpython-37m-arm-linux-gnueabihf.so
+$ sudo cp \
+_edgetpu_cpp_wrapper.cpython-35m-arm-linux-gnueabihf.so \
+_edgetpu_cpp_wrapper.cpython-37m-arm-linux-gnueabihf.so
 ### Only Raspbian Buster ############################################################
 
 $ cd ~/TPU-Posenet

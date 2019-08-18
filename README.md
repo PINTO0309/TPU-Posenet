@@ -42,8 +42,8 @@ $ sudo edgetpu_api/install.sh
 
 $ git clone https://github.com/PINTO0309/TPU-Posenet.git
 $ cd TPU-Posenet.git
-$ models/download.sh
-$ media/download.sh
+$ cd models;./download.sh;cd ..
+$ cd media;./download.sh;cd ..
 ```
 ### 3-2-1. Only Linux
 ```bash

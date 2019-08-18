@@ -15,15 +15,15 @@ This repository was tuned to speed up Google's sample logic to support multi-TPU
 ![07](media/07.jpeg)
 
 ## 2. Inference behavior
-**Async, TPU x3, USB Camera, Single Person**  
+### 2-1. Async, TPU x3, USB Camera, Single Person
 **Youtube：https://youtu.be/LBk71RKca1c**  
 ![08](media/08.gif)  
   
-**Sync, TPU x1, USB Camera, Single Person**  
+### 2-2. Sync, TPU x1, USB Camera, Single Person
 **Youtube：https://youtu.be/GuuXzpLXFJo**  
 ![09](media/09.gif)  
   
-**Sync, TPU x1, MP4 (30 FPS), Multi Person**  
+### 2-3. Sync, TPU x1, MP4 (30 FPS), Multi Person
 **Youtube：https://youtu.be/ibPuI12bj2w**  
 ![10](media/10.gif)  
 

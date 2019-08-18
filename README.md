@@ -11,6 +11,7 @@ This repository was tuned to speed up Google's sample logic to support multi-TPU
 - USB Camera (Playstationeye)
 - Picamera v2
 - Self-powered USB 3.0 Hub
+- Python 3.5.2+
 
 ![07](media/07.jpeg)
 

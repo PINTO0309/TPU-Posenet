@@ -14,8 +14,21 @@ This repository was tuned to speed up Google's sample logic to support multi-TPU
 
 ![07](media/07.jpeg)
 
-## 2. Introduction procedure
-### 2-1. Common procedures for devices
+## 2. Inference behavior
+**Async, TPU x3, USB Camera, Single Person**  
+**Youtube：https://youtu.be/LBk71RKca1c**  
+![08](media/08.gif)  
+  
+**Sync, TPU x1, USB Camera, Single Person**  
+**Youtube：https://youtu.be/GuuXzpLXFJo**  
+![09](media/09.gif)  
+  
+**Sync, TPU x1, MP4 (30 FPS), Multi Person**  
+**Youtube：https://youtu.be/ibPuI12bj2w**  
+![10](media/10.gif)  
+
+## 3. Introduction procedure
+### 3-1. Common procedures for devices
 ```bash
 $ sudo apt-get update;sudo apt-get upgrade -y
 
@@ -32,7 +45,7 @@ $ cd TPU-Posenet.git
 $ models/download.sh
 $ media/download.sh
 ```
-### 2-2-1. Only Linux
+### 3-2-1. Only Linux
 ```bash
 $ wget https://github.com/PINTO0309/OpenVINO-bin/raw/master/Linux/download_2019R2.sh
 $ chmod +x download_2019R2.sh
@@ -42,7 +55,7 @@ $ ./install_GUI.sh
 OR
 $ ./install.sh
 ```
-### 2-2-2. Only RaspberryPi (Stretch or Buster)
+### 3-2-2. Only RaspberryPi (Stretch or Buster)
 ```bash
 ### Only Raspbian Buster ############################################################
 $ cd /usr/local/lib/python3.7/dist-packages/edgetpu/swig/

@@ -37,3 +37,8 @@ $ sudo raspi-config
 ![04](media/04.png)  
 ![05](media/05.png)  
 ![06](media/06.png)  
+```bash
+$ wget https://github.com/PINTO0309/OpenVINO-bin/raw/master/RaspberryPi/download_2019R2.sh
+$ ./download_2019R2.sh
+$ echo "source /opt/intel/openvino/bin/setupvars.sh" >> ~/.bashrc
+```

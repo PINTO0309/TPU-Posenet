@@ -129,3 +129,5 @@ optional arguments:
                         Path to input video file. (Default="")
   --vidfps VIDFPS       FPS of Video. (Default=30)
 ```
+## 5. Reference articles
+**[Edge TPU USB Accelerator analysis - I/O data transfer - Qiita - iwatake2222](https://qiita.com/iwatake2222/items/922f02893355b30dab2e)**  

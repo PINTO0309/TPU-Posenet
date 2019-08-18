@@ -5,9 +5,11 @@ This repository was tuned to speed up Google's sample logic to support multi-TPU
 
 ## 1. Environment
 
-- Ubuntu or RaspberryPi **(Note: Because RaspberryPi3 is a low-speed USB 2.0, multi-TPU operation becomes extremely unstable.)**
+- Ubuntu or RaspberryPi
+    - **(Note: Because RaspberryPi3 is a low-speed USB 2.0, multi-TPU operation becomes extremely unstable.)**
 - OpenCV4.1.1-openvino
 - Coral Edge TPU Accelerator (Multi-TPU)
+    - Automatically detect the number of multiple TPU accelerators connected to a USB hub to improve performance.
 - USB Camera (Playstationeye)
 - Picamera v2
 - Self-powered USB 3.0 Hub

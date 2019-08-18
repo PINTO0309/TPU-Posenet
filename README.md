@@ -3,7 +3,7 @@
 August 18, 2019 Under construction.
 
 ## １．Introduction procedure
-**Common procedures for devices**
+### Common procedures for devices
 ```bash
 $ sudo apt-get install -y python3-pip
 $ sudo pip3 install pip --upgrade
@@ -21,7 +21,7 @@ $ models/download.sh
 $ media/download.sh
 ```
 
-**Only RaspberryPi**
+### Only RaspberryPi
 ```bash
 ### Only Raspbian Buster ############################################################
 $ cd /usr/local/lib/python3.7/dist-packages/edgetpu/swig/

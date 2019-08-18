@@ -1,6 +1,6 @@
 # TPU-Posenet
+Edge TPU Accelerator/Multi-TPU + Posenet + Python + Sync/Async + LaptopPC/RaspberryPi.  
 
-August 18, 2019 Under construction.
 
 ## 1. Environment
 
@@ -38,7 +38,7 @@ $ ./install_GUI.sh
 OR
 $ ./install.sh
 ```
-### 2-2-2. Only RaspberryPi
+### 2-2-2. Only RaspberryPi (Stretch or Buster)
 ```bash
 ### Only Raspbian Buster ############################################################
 $ cd /usr/local/lib/python3.7/dist-packages/edgetpu/swig/

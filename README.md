@@ -78,6 +78,7 @@ $ wget https://github.com/PINTO0309/OpenVINO-bin/raw/master/RaspberryPi/download
 $ sudo chmod +x download_2019R2.sh
 $ ./download_2019R2.sh
 $ echo "source /opt/intel/openvino/bin/setupvars.sh" >> ~/.bashrc
+$ source ~/.bashrc
 ```
 ## 4. Usage
 ```bash

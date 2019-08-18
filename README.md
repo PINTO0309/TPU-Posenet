@@ -2,8 +2,8 @@
 
 August 18, 2019 Under construction.
 
-## １．Introduction procedure
-### Common procedures for devices
+## 1. Introduction procedure
+### 1-1. Common procedures for devices
 ```bash
 $ sudo apt-get update;sudo apt-get upgrade -y
 
@@ -20,7 +20,7 @@ $ cd TPU-Posenet.git
 $ models/download.sh
 $ media/download.sh
 ```
-### Only Linux
+### 1-2-1. Only Linux
 ```bash
 $ wget https://github.com/PINTO0309/OpenVINO-bin/raw/master/Linux/download_2019R2.sh
 $ chmod +x download_2019R2.sh
@@ -30,7 +30,7 @@ $ ./install_GUI.sh
 OR
 $ ./install.sh
 ```
-### Only RaspberryPi
+### 1-2-2. Only RaspberryPi
 ```bash
 ### Only Raspbian Buster ############################################################
 $ cd /usr/local/lib/python3.7/dist-packages/edgetpu/swig/

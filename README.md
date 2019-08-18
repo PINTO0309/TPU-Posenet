@@ -8,7 +8,7 @@ August 18, 2019 Under construction.
 - OpenCV4.1.1-openvino
 - USB Camera
 - Picamera v2
-- Self-powered USB Hub
+- Self-powered USB 3.0 Hub
 
 ## 2. Introduction procedure
 ### 2-1. Common procedures for devices

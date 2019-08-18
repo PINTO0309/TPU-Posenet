@@ -144,3 +144,5 @@ optional arguments:
 ```
 ## 5. Reference articles
 **[Edge TPU USB Accelerator analysis - I/O data transfer - Qiita - iwatake2222](https://qiita.com/iwatake2222/items/922f02893355b30dab2e)**  
+
+**[[150 FPS ++] Connect three Coral Edge TPU accelerators and infer in parallel processing to get ultra-fast object detection inference performance ーTo the extreme of useless high performanceー - Qiita - PINTO](https://qiita.com/PINTO/items/63b6f01eb22a5ab97901#150-fps--connect-three-coral-edge-tpu-accelerators-and-infer-in-parallel-processing-to-get-ultra-fast-object-detection-inference-performance-%E3%83%BCto-the-extreme-of-useless-high-performance%E3%83%BC)**  

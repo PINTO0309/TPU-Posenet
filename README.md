@@ -20,7 +20,16 @@ $ cd TPU-Posenet.git
 $ models/download.sh
 $ media/download.sh
 ```
-
+### Only Linux
+```bash
+$ wget https://github.com/PINTO0309/OpenVINO-bin/raw/master/Linux/download_2019R2.sh
+$ chmod +x download_2019R2.sh
+$ ./download_2019R2.sh
+$ l_openvino_toolkit_p_2019.2.242/install_openvino_dependencies.sh
+$ ./install_GUI.sh
+OR
+$ ./install.sh
+```
 ### Only RaspberryPi
 ```bash
 ### Only Raspbian Buster ############################################################
@@ -39,6 +48,7 @@ $ sudo raspi-config
 ![06](media/06.png)  
 ```bash
 $ wget https://github.com/PINTO0309/OpenVINO-bin/raw/master/RaspberryPi/download_2019R2.sh
+$ sudo chmod +x download_2019R2.sh
 $ ./download_2019R2.sh
 $ echo "source /opt/intel/openvino/bin/setupvars.sh" >> ~/.bashrc
 ```

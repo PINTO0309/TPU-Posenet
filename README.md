@@ -1,6 +1,7 @@
 # TPU-Posenet
 Edge TPU Accelerator/Multi-TPU + Posenet + Python + Sync/Async + LaptopPC/RaspberryPi.  
-
+Inspired by **[google-coral/project-posenet](https://github.com/google-coral/project-posenet)**  
+This repository was tuned to speed up Google's sample logic to support multi-TPU.  
 
 ## 1. Environment
 

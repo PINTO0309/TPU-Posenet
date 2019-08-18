@@ -6,7 +6,15 @@ This repository was tuned to speed up Google's sample logic to support multi-TPU
 ## 0. Table of contents
 **1. [Environment](#1-environment)**  
 **2. [Inference behavior](#2-inference-behavior)**  
-　**2-1. **
+　**2-1. [Async, TPU x3, USB Camera, Single Person](#2-1-async-tpu-x3-usb-camera-single-person)**  
+　**2-2. [Sync, TPU x1, USB Camera, Single Person](#2-2-sync-tpu-x1-usb-camera-single-person)**  
+　**2-3. [Sync, TPU x1, MP4 (30 FPS), Multi Person](#2-3-sync-tpu-x1-mp4-30-fps-multi-person)**  
+**3. [Introduction procedure](#3-introduction-procedure)**  
+　**3-1. [Common procedures for devices](#3-1-common-procedures-for-devices)**  
+　**3-2-1. [Only Linux](#3-2-1-only-linux)**  
+　**3-2-2. [Only RaspberryPi (Stretch or Buster)](#3-2-2-only-raspberrypi-stretch-or-buster)**  
+**4. [Usage](#4-usage)**  
+**5. [Reference articles](#5-reference-articles)**  
 
 ## 1. Environment
 

@@ -9,7 +9,7 @@ This repository was tuned to speed up Google's sample logic to support multi-TPU
 　**2-1. [Async, TPU x3, USB Camera, Single Person](#2-1-async-tpu-x3-usb-camera-single-person)**  
 　**2-2. [Sync, TPU x1, USB Camera, Single Person](#2-2-sync-tpu-x1-usb-camera-single-person)**  
 　**2-3. [Sync, TPU x1, MP4 (30 FPS), Multi Person](#2-3-sync-tpu-x1-mp4-30-fps-multi-person)**  
-　**2-4. [Async, TPU x3, USB Camera (30 FPS), Multi-Model, Posenet + DeeplabV3 + MobileNet-SSDv2](#2-3-sync-tpu-x1-mp4-30-fps-multi-person)**  
+　**2-4. [Async, TPU x3, USB Camera (30 FPS), Multi-Model, Posenet + DeeplabV3 + MobileNet-SSDv2](#2-4-async-tpu-x3-usb-camera-30-fps-multi-model-posenet--deeplabv3--mobilenet-ssdv2)**  
 **3. [Introduction procedure](#3-introduction-procedure)**  
 　**3-1. [Common procedures for devices](#3-1-common-procedures-for-devices)**  
 　**3-2-1. [Only Linux](#3-2-1-only-linux)**  

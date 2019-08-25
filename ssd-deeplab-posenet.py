@@ -50,7 +50,7 @@ SSD_LABELS = ['person','bicycle','car','motorcycle','airplane','bus','train','tr
               'sink','refrigerator','','book','clock','vase','scissors','teddy bear','hair drier','toothbrush']
 
 # Deeplab color palettes
-DEEPLAB_PALETTE = Image.open("colorpalette.png").getpalette()
+DEEPLAB_PALETTE = Image.open("models/colorpalette.png").getpalette()
 
 # Posenet Edges
 EDGES = (

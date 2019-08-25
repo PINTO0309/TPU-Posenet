@@ -168,10 +168,10 @@ optional arguments:
                         USB Camera resolution (height). (Default=480)
 ```
 ## 5. Reference articles
-**[Edge TPU USB Accelerator analysis - I/O data transfer - Qiita - iwatake2222](https://qiita.com/iwatake2222/items/922f02893355b30dab2e)**  
+1. **[Edge TPU USB Accelerator analysis - I/O data transfer - Qiita - iwatake2222](https://qiita.com/iwatake2222/items/922f02893355b30dab2e)**  
 
-**[[150 FPS ++] Connect three Coral Edge TPU accelerators and infer in parallel processing to get ultra-fast object detection inference performance ーTo the extreme of useless high performanceー - Qiita - PINTO](https://qiita.com/PINTO/items/63b6f01eb22a5ab97901#%EF%BC%91introduction-1)**  
+2. **[[150 FPS ++] Connect three Coral Edge TPU accelerators and infer in parallel processing to get ultra-fast object detection inference performance ーTo the extreme of useless high performanceー - Qiita - PINTO](https://qiita.com/PINTO/items/63b6f01eb22a5ab97901#%EF%BC%91introduction-1)**  
 
-**[[150 FPS ++] Connect three Coral Edge TPU accelerators and infer in parallel processing to get ultra-fast Posenet inference performance ーTo the extreme of useless high performanceー - Qiita - PINTO](https://qiita.com/PINTO/items/e969fa7601d0868e451f)**  
+3. **[[150 FPS ++] Connect three Coral Edge TPU accelerators and infer in parallel processing to get ultra-fast Posenet inference performance ーTo the extreme of useless high performanceー - Qiita - PINTO](https://qiita.com/PINTO/items/e969fa7601d0868e451f)**  
 
-**[Raspberry Pi Camera Module](https://www.raspberrypi.org/documentation/raspbian/applications/camera.md)**  
+4. **[Raspberry Pi Camera Module](https://www.raspberrypi.org/documentation/raspbian/applications/camera.md)**  

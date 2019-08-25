@@ -142,7 +142,36 @@ optional arguments:
                         Path to input video file. (Default="")
   --vidfps VIDFPS       FPS of Video. (Default=30)
 ```
-## 5. Reference articles
-**[Edge TPU USB Accelerator analysis - I/O data transfer - Qiita - iwatake2222](https://qiita.com/iwatake2222/items/922f02893355b30dab2e)**  
+```bash
+usage: ssd-deeplab-posenet.py [-h] [--pose_model POSE_MODEL]
+                              [--deep_model DEEP_MODEL]
+                              [--ssd_model SSD_MODEL] [--usbcamno USBCAMNO]
+                              [--videofile VIDEOFILE] [--vidfps VIDFPS]
+                              [--camera_width CAMERA_WIDTH]
+                              [--camera_height CAMERA_HEIGHT]
 
-**[[150 FPS ++] Connect three Coral Edge TPU accelerators and infer in parallel processing to get ultra-fast object detection inference performance ーTo the extreme of useless high performanceー - Qiita - PINTO](https://qiita.com/PINTO/items/63b6f01eb22a5ab97901#%EF%BC%91introduction-1)**  
+optional arguments:
+  -h, --help            show this help message and exit
+  --pose_model POSE_MODEL
+                        Path of the posenet model.
+  --deep_model DEEP_MODEL
+                        Path of the deeplabv3 model.
+  --ssd_model SSD_MODEL
+                        Path of the mobilenet-ssd model.
+  --usbcamno USBCAMNO   USB Camera number.
+  --videofile VIDEOFILE
+                        Path to input video file. (Default="")
+  --vidfps VIDFPS       FPS of Video. (Default=30)
+  --camera_width CAMERA_WIDTH
+                        USB Camera resolution (width). (Default=640)
+  --camera_height CAMERA_HEIGHT
+                        USB Camera resolution (height). (Default=480)
+```
+## 5. Reference articles
+1. **[Edge TPU USB Accelerator analysis - I/O data transfer - Qiita - iwatake2222](https://qiita.com/iwatake2222/items/922f02893355b30dab2e)**  
+
+2. **[[150 FPS ++] Connect three Coral Edge TPU accelerators and infer in parallel processing to get ultra-fast object detection inference performance ーTo the extreme of useless high performanceー - Qiita - PINTO](https://qiita.com/PINTO/items/63b6f01eb22a5ab97901#%EF%BC%91introduction-1)**  
+
+3. **[[150 FPS ++] Connect three Coral Edge TPU accelerators and infer in parallel processing to get ultra-fast Posenet inference performance ーTo the extreme of useless high performanceー - Qiita - PINTO](https://qiita.com/PINTO/items/e969fa7601d0868e451f)**  
+
+4. **[Raspberry Pi Camera Module](https://www.raspberrypi.org/documentation/raspbian/applications/camera.md)**  

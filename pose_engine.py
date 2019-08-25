@@ -72,7 +72,7 @@ class Pose:
 class PoseEngine(BasicEngine):
     """Engine used for pose tasks."""
 
-    def __init__(self, model_path, mirror=False):
+    def __init__(self, model_path, device, mirror=False):
         """Creates a PoseEngine with given model.
 
         Args:
@@ -82,7 +82,7 @@ class PoseEngine(BasicEngine):
         Raises:
           ValueError: An error occurred when model output is invalid.
         """
-        BasicEngine.__init__(self, model_path)
+        BasicEngine.__init__(self, model_path, device)
         self._mirror = mirror
 
         self._input_tensor_shape = self.get_input_tensor_shape()

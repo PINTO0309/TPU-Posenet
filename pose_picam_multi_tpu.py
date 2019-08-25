@@ -115,7 +115,7 @@ def inferencer(results, frameBuffer, model, camera_width, camera_height):
     devopen = False
     for device in devices:
         try:
-            engine = PoseEngine(model)
+            engine = PoseEngine(model, device)
             devopen = True
             break
         except:

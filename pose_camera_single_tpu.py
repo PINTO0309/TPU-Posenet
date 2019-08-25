@@ -90,8 +90,8 @@ if __name__ == '__main__':
     model_width   = 640
     model_height  = 480
 
-    engine = PoseEngine(model)
-    sleep(5)
+    devices = edgetpu_utils.ListEdgeTpuPaths(edgetpu_utils.EDGE_TPU_STATE_UNASSIGNED)
+    engine = PoseEngine(model, devices[0])
 
     if videofile == "":
         cam = cv2.VideoCapture(usbcamno)

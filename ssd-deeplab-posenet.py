@@ -245,7 +245,7 @@ def ssd_inferencer(results, frameBuffer, model, device):
         prepimg_ssd = color_image[:, :, ::-1].copy()
         prepimg_ssd = Image.fromarray(prepimg_ssd)
         tinf = time.perf_counter()
-        result_ssd = ssd_engine.DetectWithImage(prepimg_ssd, threshold=0.5, keep_aspect_ratio=True, relative_coord=False, top_k=10)
+        result_ssd = ssd_engine.detect_with_image(prepimg_ssd, threshold=0.5, keep_aspect_ratio=True, relative_coord=False, top_k=10)
         print(time.perf_counter() - tinf, "sec (SSD)")
         results.put(result_ssd)
 

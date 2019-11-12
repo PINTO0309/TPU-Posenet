@@ -122,7 +122,7 @@ class PoseEngine(BasicEngine):
         assert (img.shape == tuple(self._input_tensor_shape[1:]))
 
         # Run the inference (API expects the data to be flattened)
-        inference_time, output = self.RunInference(img.flatten())
+        inference_time, output = self.run_inference(img.flatten())
         outputs = [output[i:j] for i, j in zip(self._output_offsets, self._output_offsets[1:])]
 
         keypoints = outputs[0].reshape(-1, len(KEYPOINTS), 2)

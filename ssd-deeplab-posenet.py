@@ -354,9 +354,9 @@ if __name__ == '__main__':
 
     try:
         mp.set_start_method('forkserver')
-        pose_frameBuffer = mp.Queue(1)
-        deep_frameBuffer = mp.Queue(1)
-        ssd_frameBuffer  = mp.Queue(1)
+        pose_frameBuffer = mp.Queue(10)
+        deep_frameBuffer = mp.Queue(10)
+        ssd_frameBuffer  = mp.Queue(10)
         pose_results = mp.Queue()
         deep_results = mp.Queue()
         ssd_results  = mp.Queue()

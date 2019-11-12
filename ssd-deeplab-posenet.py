@@ -224,7 +224,7 @@ def deep_inferencer(results, frameBuffer, model, device):
         prepimg_deep = color_image[:, :, ::-1].copy()
         prepimg_deep = prepimg_deep.flatten()
         tinf = time.perf_counter()
-        latency, result_deep = deep_engine.RunInference(prepimg_deep)
+        latency, result_deep = deep_engine.run_inference(prepimg_deep)
         print(time.perf_counter() - tinf, "sec (Deeplab)")
         results.put(result_deep)
 
